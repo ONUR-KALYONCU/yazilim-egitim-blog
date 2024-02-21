@@ -15,7 +15,7 @@
         "laravel/socialite": "^5.6",
         "laravel/tinker": "^2.8",
         "mailersend/laravel-driver": "^2.3",
-        "predis/predis": "^2.1",
+        "predis/predis": "^2.2",
         "rap2hpoutre/laravel-log-viewer": "^2.3",
         "realrashid/sweet-alert": "^6.0",
         "symfony/http-client": "^6.2",
