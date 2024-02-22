@@ -245,6 +245,7 @@ a.category-link:hover{
     transition-duration: 0.8s;
     transform: scale(1.2);
 }
+
 @keyframes scrollMovie {
     0%{
         transform: translateY(0);
@@ -253,26 +254,27 @@ a.category-link:hover{
         transform: translateY(-10px);
     }
 }
+
 .scroll-to-top{
-    right:13px;
+    right: 13px;
     bottom: 100px;
-    background-color: #eb8508;
+    background-color: #eb8508 !important;
     opacity: 0.75;
     animation: scrollMovie 0.75s infinite alternate;
-    cursor: pointer;
+    cursor:pointer;
     display: none;
 }
-
-
 .btn-circle{
-    width: 50px;
+    width:50px;
     height: 50px;
     padding: 10px;
     border-radius: 25px;
     font-size: 20px;
     text-align: center;
-
+    background-color: red;
 }
+
+
 .bg-sub-category{
     background-color: #eaeaea;
 }

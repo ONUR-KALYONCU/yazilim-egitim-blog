@@ -195,31 +195,31 @@
     <script>
 
         $('#theme-type').change(function () {
-           let val = $(this).val();
+            let val = $(this).val();
 
-           switch (val) {
-               case "1":
-                   $('.custom-content').removeClass("d-none");
-                   $('.theme-status').removeClass("d-none");
-                   $('.password-reset-mail').addClass("d-none");
-                   $('#process').val("").change();
-                   $("#process").removeAttr("style").removeAttr("readonly");
-                   break;
-               case "2":
-                   $('.custom-content').addClass("d-none");
-                   $('.password-reset-mail').removeClass("d-none");
-                   $('.theme-status').removeClass("d-none");
-                   $('#process').val("2").change();
-                   $('#process').attr("readonly", true).attr("style", "pointer-events: none;");;
-                   break;
-               default:
-                   $('.custom-content').addClass("d-none");
-                   $('.password-reset-mail').addClass("d-none");
-                   $('.theme-status').addClass("d-none");
-                   $('#process').val("").change();
-                   $("#process").removeAttr("style").removeAttr("readonly");
-                   break;
-           }
+            switch (val) {
+                case "1":
+                    $('.custom-content').removeClass("d-none");
+                    $('.theme-status').removeClass("d-none");
+                    $('.password-reset-mail').addClass("d-none");
+                    $('#process').val("").change();
+                    $("#process").removeAttr("style").removeAttr("readonly");
+                    break;
+                case "2":
+                    $('.custom-content').addClass("d-none");
+                    $('.password-reset-mail').removeClass("d-none");
+                    $('.theme-status').removeClass("d-none");
+                    $('#process').val("2").change();
+                    $('#process').attr("readonly", true).attr("style", "pointer-events: none;");;
+                    break;
+                default:
+                    $('.custom-content').addClass("d-none");
+                    $('.password-reset-mail').addClass("d-none");
+                    $('.theme-status').addClass("d-none");
+                    $('#process').val("").change();
+                    $("#process").removeAttr("style").removeAttr("readonly");
+                    break;
+            }
 
         });
 
